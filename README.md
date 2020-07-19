@@ -7,5 +7,5 @@ Run for docker (Postgresdb DB):
 -   Enter the bash container :<br>
 `docker container exec -it postgresdb bash`
 
-- Now after entering the container execute the SQL file:
+- Now after entering the container execute the SQL file:<br>
 `psql -U postgres --file expensetracker_db.sql`
